@@ -12,7 +12,7 @@ const RTE = ({ name, control, label, defaultValue = "" }) => {
         control={control}
         render={({ field: { onChange } }) => (
           <Editor
-            apiKey='wlrvn5sb35ilkl3cjaohywwlu5hlxoinxch6h7hc5ctgtvpn'
+            apiKey={config.TinyMicyApiKey}
 
             initialValue={defaultValue}
             init={{
