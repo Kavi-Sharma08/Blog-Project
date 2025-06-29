@@ -2,6 +2,7 @@ import { Controller } from "react-hook-form";
 import { Editor } from "@tinymce/tinymce-react";
 import config from "../../config/config"
 const RTE = ({ name, control, label, defaultValue = "" }) => {
+  
   return (
     <div className="w-full">
       {label && <label className="inline-block mb-1 pl-1">{label}</label>}
@@ -11,7 +12,8 @@ const RTE = ({ name, control, label, defaultValue = "" }) => {
         control={control}
         render={({ field: { onChange } }) => (
           <Editor
-            apiKey={config.TinyMicyApiKey}
+            apiKey='wlrvn5sb35ilkl3cjaohywwlu5hlxoinxch6h7hc5ctgtvpn'
+
             initialValue={defaultValue}
             init={{
               initialValue: defaultValue,
