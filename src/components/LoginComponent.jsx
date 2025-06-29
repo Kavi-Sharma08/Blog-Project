@@ -32,9 +32,7 @@ const Login = () => {
     <div className="min-h-screen bg-gradient-to-r from-indigo-100 via-white to-cyan-100 flex items-center justify-center px-4">
       <div className="w-full max-w-md bg-white rounded-xl shadow-xl p-8 sm:p-10 border border-gray-200">
         <div className="mb-6 text-center">
-          <span className="inline-block w-20 mb-2">
-            <Logo width="100%" />
-          </span>
+          
           <h2 className="text-3xl font-extrabold text-gray-800">Welcome Back</h2>
           <p className="text-gray-500 mt-1 text-sm">
             Don't have an account?{" "}
