@@ -1,7 +1,5 @@
-import { connect } from "react-redux";
 import config from "../../config/config";
 import { Client , ID , Databases , Storage, Query } from "appwrite";
-import { configureStore } from "@reduxjs/toolkit";
 
 export class Service{
 
